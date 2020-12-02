@@ -6,7 +6,7 @@ html {
 
 body {
     background: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     border: 1px solid black;
@@ -39,6 +39,16 @@ header p {
     width: 70%;
     display: inline-block;
     vertical-align: middle;
+    width: 90%;
+}
+
+#sub-heading {
+    width: 50%;
+}
+
+.img-container {
+    display: inline-block;
+    width: 20%;
 }
 
 header img {
@@ -46,44 +56,43 @@ header img {
     border-radius: 100%;
     object-fit: cover;
     object-position: 80% 50%;
-    display: inline;
+    padding: 2%;
 }
 
 section.intro {
-    display: inline;
+    display: inline-block;
+    width: 70%;
 }
 
 section.main {
     background: #DDB9A3;
     color: white;
-    margin: 1rem 8rem;
-    padding: 2rem 1rem;
-}
-section.main p {
-    font-size: 2.1rem;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.2rem;
-    line-height:  2.5rem;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    width: 90%;;
     display: inline-block;
-    vertical-align: middle;
+    font-size: 2.4rem;
+    line-height: 1.5;
 }
+
 nav {
     display: inline-block;
     vertical-align: middle;
     margin: 4rem 0;
-    width: 70%;
+    width: 100%;
 }
 
 button {
     color: seashell;
     border: none;
     border-radius: 2rem;
-    font-size: 2rem;
-    width: 19rem;
-    padding: 1rem 2.5rem;
+    font-size: 2.1rem;
+    width: 19.8rem;
+    padding: 1.25rem 2.5rem;
     letter-spacing: 0.24rem;
     line-height: 2.5rem;
     word-spacing: 0.3rem;
+    margin: 0 6.5%;
 }
 
 button.plan {
@@ -99,9 +108,10 @@ button.get {
 }
 
 section.picture-section {
-    width: 30rem;
-    margin: 2rem 35% 4rem 35%;
+    width: 25%;
+    margin: 2rem 20%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 section.picture-section img {
