@@ -9,14 +9,14 @@ body {
     font-size: 1.8rem;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    border: 1px solid black;
 }
 
 main {
     max-width: 1450px;
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid red;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 b {
@@ -38,7 +38,6 @@ header p {
     font-size: 2.1rem;
     width: 70%;
     display: inline-block;
-    vertical-align: middle;
     width: 90%;
 }
 
@@ -48,11 +47,11 @@ header p {
 
 .img-container {
     display: inline-block;
-    width: 20%;
+    width: 29%;
 }
 
 header img {
-    height: 25rem;
+    height: 30rem;
     border-radius: 100%;
     object-fit: cover;
     object-position: 80% 50%;
@@ -61,7 +60,8 @@ header img {
 
 section.intro {
     display: inline-block;
-    width: 70%;
+    width: 60%;
+    vertical-align: bottom;
 }
 
 section.main {
@@ -74,6 +74,7 @@ section.main {
     font-size: 2.4rem;
     line-height: 1.5;
 }
+
 
 nav {
     display: inline-block;
@@ -92,7 +93,7 @@ button {
     letter-spacing: 0.24rem;
     line-height: 2.5rem;
     word-spacing: 0.3rem;
-    margin: 0 6.5%;
+    margin: 0 6%;
 }
 
 button.plan {
@@ -115,7 +116,7 @@ section.picture-section {
 }
 
 section.picture-section img {
-    width: 50%;
+    width: 20rem;
     margin-bottom: 1.5rem;
 }
 
