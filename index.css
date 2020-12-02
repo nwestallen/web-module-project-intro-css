@@ -9,16 +9,13 @@ body {
     font-size: 1.5rem;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    display: flex;
-    justify-content: center;
     border: 1px solid black;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 1450px;
+    display: inline-block;
+    vertical-align: middle;
     border: 1px solid red;
 }
 
@@ -33,9 +30,6 @@ h1 {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 5rem;
 }
 
@@ -43,6 +37,8 @@ header p {
     margin: 2rem 0rem;
     font-size: 2.1rem;
     width: 70%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 header img {
@@ -50,12 +46,11 @@ header img {
     border-radius: 100%;
     object-fit: cover;
     object-position: 80% 50%;
+    display: inline;
 }
 
 section.intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline;
 }
 
 section.main {
@@ -69,10 +64,12 @@ section.main p {
     letter-spacing: 0.1rem;
     word-spacing: 0.2rem;
     line-height:  2.5rem;
+    display: inline-block;
+    vertical-align: middle;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    vertical-align: middle;
     margin: 4rem 0;
     width: 70%;
 }
@@ -104,6 +101,7 @@ button.get {
 section.picture-section {
     width: 30rem;
     margin: 2rem 35% 4rem 35%;
+    display: inline-block;
 }
 
 section.picture-section img {
@@ -113,9 +111,8 @@ section.picture-section img {
 
 footer {
     background: #F9E7DC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-block;
+    vertical-align: center;
     margin-top: 5rem;
     width: 100%;
 }
