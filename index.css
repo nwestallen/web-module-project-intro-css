@@ -1,0 +1,21 @@
+body {
+    background: seashell;
+    font-family: sans-serif;
+}
+
+button {
+    color: seashell;
+    box-shadow: none;
+}
+
+button.plan {
+    background: coral;
+}
+
+button.learn {
+    background: aqua;
+}
+
+button.get {
+    background: gold;
+}
