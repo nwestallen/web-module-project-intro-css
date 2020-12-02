@@ -5,17 +5,18 @@ body {
 
 button {
     color: seashell;
-    box-shadow: none;
+    border: none;
+    border-radius: 50px;
 }
 
 button.plan {
-    background: coral;
+    background: #FF764E;
 }
 
 button.learn {
-    background: aqua;
+    background: #5ED3EB;
 }
 
 button.get {
-    background: gold;
+    background: #FFCD69;
 }
