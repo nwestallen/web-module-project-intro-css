@@ -14,11 +14,18 @@ body {
 h1 {
     font-size: 5rem;
     font-family: 'Chelsea Market', cursive;
+    margin: 2rem;
+}
+
+header p {
+    margin: 2rem;
 }
 
 section.main {
     background: #DDB9A3;
     color: white;
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem;
 }
 
 nav {
@@ -31,11 +38,11 @@ nav {
 button {
     color: seashell;
     border: none;
-    border-radius: 25px;
+    border-radius: 2rem;
     font-size: 1.75rem;
-    width: 14rem;
-    padding: 1.25rem;
-    letter-spacing: 0.15rem;
+    width: 17rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    letter-spacing: 0.24rem;
 }
 
 button.plan {
@@ -48,6 +55,16 @@ button.learn {
 
 button.get {
     background: #FFCD69;
+}
+
+section.picture-section {
+    width: 30rem;
+    margin: 2rem 35% 4rem 35%;
+}
+
+section.picture-section img {
+    width: 50%;
+    margin-bottom: 1.5rem;
 }
 
 footer {
