@@ -17,8 +17,26 @@ h1 {
     margin: 2rem;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
 header p {
-    margin: 2rem;
+    margin: 2rem 10rem 2rem 10rem;
+}
+
+header img {
+    height: 25rem;
+    border-radius: 100%;
+    margin: 4rem;
+}
+
+section.intro {
+    display: flex;
+    flex-direction: column;
 }
 
 section.main {
@@ -71,4 +89,8 @@ footer {
     background: #F9E7DC;
     display: flex;
     flex-direction: column;
+}
+
+footer img {
+    height: 20rem;
 }
