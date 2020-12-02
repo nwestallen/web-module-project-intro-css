@@ -11,6 +11,12 @@ body {
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-size: 5rem;
     font-family: 'Chelsea Market', cursive;
@@ -20,29 +26,33 @@ h1 {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 90%;
+    justify-content: space-around;
+    margin: 5rem;
 }
 
 header p {
-    margin: 2rem 10rem 2rem 10rem;
+    margin: 2rem 0rem 2rem 0rem;
+    font-size: 1.8rem;
+    width: 70%;
 }
 
 header img {
     height: 25rem;
     border-radius: 100%;
-    margin: 4rem;
+    object-fit: cover;
+    object-position: 80% 50%;
 }
 
 section.intro {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 section.main {
     background: #DDB9A3;
     color: white;
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 1rem 4rem 1rem 4rem;
     padding: 1rem;
 }
 
@@ -92,5 +102,7 @@ footer {
 }
 
 footer img {
+    object-fit: cover;
+    object-position:50% 50%;
     height: 20rem;
 }
