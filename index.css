@@ -1,12 +1,36 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
 body {
     background: seashell;
     font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0 3rem 0;
 }
 
 button {
     color: seashell;
     border: none;
-    border-radius: 50px;
+    border-radius: 25px;
+    font-size: 1.75rem;
+    width: 15rem;
+    padding: 1.25rem;
+    letter-spacing: 0.15rem;
 }
 
 button.plan {
